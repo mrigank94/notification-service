@@ -1,3 +1,3 @@
-const PORT = 7777;
-
-module.exports = PORT;
+module.exports = {
+  PORT: process.env.PORT,
+};

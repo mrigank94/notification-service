@@ -18,7 +18,6 @@ const notificationSchema = new mongoose.Schema({
   },
   sentStatus: {
     type: String,
-    required: true,
     default: "UNSENT",
   },
   createdAt: {

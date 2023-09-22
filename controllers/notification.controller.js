@@ -1,6 +1,7 @@
 const Notification = require("../models/notification.model");
 
 async function createNotification(req, res) {
+  console.log(req.body);
   const notification = await Notification.create(req.body);
   res.status(201).send(notification);
 }
